@@ -1,0 +1,62 @@
+.container {
+    width: 320px;
+    height: 320px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.container h1 {
+    text-align: center;
+    font-size: 45px;
+    font-family: 'Chelsea Market', cursive;
+
+}
+
+.container h2 {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Chelsea Market', cursive;
+}
+
+.row{
+    height: 100px;
+
+}
+
+.col{
+    height: 100px;
+    width: 100px;
+    float: left;
+    font-size: 100px;
+    text-align: center;
+    line-height: 100px;
+}
+
+.col:hover {
+    background-color: rgb(202,240,248) ;
+
+}
+
+.border-b {
+    border-bottom: 10px solid black;
+}
+
+.border-r {
+    border-right: 10px solid black;
+}
+
+.restart-btn-container {
+    display: flex;
+    width: 100%;
+    margin-top: 100px;
+     
+}
+
+.restart-btn {
+    font-size: xx-large;
+    padding: 25px;
+    border-radius: 25px;
+    font-family: 'Balsamiq Sans', cursive ;
+    color: blue ; 
+    margin: center ;
+}
